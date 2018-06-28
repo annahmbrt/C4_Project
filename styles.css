@@ -1,3 +1,10 @@
+/*              GENERAL                  */
+body {
+	background-image:url("img/totalBackground08.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
 
 /*Slideshow*/
 
@@ -31,4 +38,63 @@
 .col-sm-12{
 	border: 1px solid red;
 	text-align:center;
+}
+
+/*                GETRAENKEKARTE                  */
+
+.getraenke_tabelle { width:40%;
+}
+
+#slideshow_placebear {
+	width:100%;
+}
+
+/* GETRÄNKE */
+
+.getraenke_tabelle {
+	display: none;
+	color: white;
+	margin: auto;
+}
+
+/* Buttons */
+
+.button_drinks {
+  display: block;
+  border-radius: 4px;
+  background-color: rgba(220,130,50,0.3);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 50%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: auto;
+}
+
+.button_drinks span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_drinks span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_drinks:hover span {
+  padding-right: 25px;
+}
+
+.button_drinks:hover span:after {
+  opacity: 1;
+  right: 0;
 }
