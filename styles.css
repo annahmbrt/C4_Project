@@ -23,3 +23,12 @@
 #social-media-logo{
 	height:40px;
 }
+.col-sm-2{
+	display:block;
+	float:right;
+	border: solid 2px red;
+}
+.col-sm-12{
+	border: 1px solid red;
+	text-align:center;
+}
