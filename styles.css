@@ -23,6 +23,8 @@
 #social-media-logo{
 	height:40px;
 }
+
+/*grid system*/
 .col-sm-2{
 	display:block;
 	float:right;
