@@ -2,7 +2,9 @@
 body {
 	background-image:url("img/totalBackground08.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
+	color: white;
+
 
 }
 
@@ -58,6 +60,7 @@ body {
 	display: none;
 	color: white;
 	margin: auto;
+	width: 50%;
 }
 
 /* Buttons */
