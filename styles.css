@@ -30,6 +30,8 @@ body {
 #social-media-logo{
 	height:40px;
 }
+
+/*grid system*/
 .col-sm-2{
 	display:block;
 	float:right;
@@ -40,6 +42,7 @@ body {
 	text-align:center;
 }
 
+<<<<<<< HEAD
 /*                GETRAENKEKARTE                  */
 
 .getraenke_tabelle { width:40%;
@@ -97,4 +100,12 @@ body {
 .button_drinks:hover span:after {
   opacity: 1;
   right: 0;
+}
+=======
+#sidebar{
+	background-color:red;
+}
+iframe{
+	width:150px;
+	height:200px;
 }
