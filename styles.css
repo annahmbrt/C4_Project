@@ -39,7 +39,6 @@ body {
 	border: solid 2px red;
 }
 .col-sm-12{
-	border: 1px solid red;
 	text-align:center;
 }
 
@@ -112,4 +111,17 @@ body {
 iframe{
 	width:150px;
 	height:200px;
+}
+
+
+.foot a{
+	text-decoration:none;
+	color:white;
+}
+
+.foot a:hover{
+	text-decoration:underline;
+}
+.foot{
+	background-color:black;
 }
