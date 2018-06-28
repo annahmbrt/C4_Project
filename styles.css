@@ -42,7 +42,7 @@ body {
 	text-align:center;
 }
 
-<<<<<<< HEAD
+
 /*                GETRAENKEKARTE                  */
 
 .getraenke_tabelle { width:40%;
@@ -59,17 +59,17 @@ body {
 	color: white;
 	margin: auto;
 	width: 50%;
-	background-color: rgba(255,255,255,0.2);
-	padding: 5px;
+	background-color: rgba(255,255,255,0.1);
+	padding: 10px;
 }
 
 /* Buttons */
 
 .button_drinks {
   display: block;
-  border-radius: 4px;
-  background-color: rgba(220,130,50,0.3);
-  border: none;
+	border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: rgba(200,140,80,0.1);
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
@@ -78,6 +78,7 @@ body {
   transition: all 0.5s;
   cursor: pointer;
   margin: auto;
+	margin-bottom: 10px;
 }
 
 .button_drinks span {
@@ -114,6 +115,7 @@ iframe{
 }
 
 
+
 .foot a{
 	text-decoration:none;
 	color:white;
@@ -124,4 +126,23 @@ iframe{
 }
 .foot{
 	background-color:black;
+=======
+/*       HSTORIE       */
+
+#historie {
+	width: 70%;
+	margin-left: 5%;
+	text-align: justify;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 10px;
+}
+
+/*       ÖFFNUNGSZEITEN       */
+
+#oeffnungszeiten {
+	width: 40%;
+	margin-left: 5%;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 10px;
+>>>>>>> d8b6f6a9bb8d78c5994524e0df5070dc8145bee9
 }
