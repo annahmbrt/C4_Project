@@ -32,3 +32,11 @@
 	border: 1px solid red;
 	text-align:center;
 }
+
+#sidebar{
+	background-color:red;
+}
+iframe{
+	width:150px;
+	height:200px;
+}
