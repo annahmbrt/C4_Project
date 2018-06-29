@@ -9,8 +9,9 @@ body {
 	width:90%;
 	margin:auto;
 }
+
 .container{
-	background-color:grey;
+	background-color:rgba(148,142,142,0.5)
 }
 
 
@@ -43,7 +44,7 @@ body {
 .col-sm-2{
 	display:block;
 	float:right;
-	border: none;
+	border:none;
 	background-color:black;
 }
 .col-sm-12{
@@ -114,12 +115,9 @@ body {
   right: 0;
 }
 
-#sidebar{
-	background-color:red;
-}
 iframe{
-	width:150px;
-	height:200px;
+	width:80%;
+	height:80%;
 }
 
 
