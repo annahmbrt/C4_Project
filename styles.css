@@ -1,9 +1,16 @@
 /*              GENERAL                  */
 body {
-	background-image:url("img/totalBackground082.jpg");
-	background-repeat: repeat;
+	background-image:url("img/skyline.jpg");
 	background-size: 100%;
 	color: white;
+}
+
+.innen{
+	width:90%;
+	margin:auto;
+}
+.container{
+	background-color:grey;
 }
 
 
@@ -12,7 +19,6 @@ body {
 .carousel-control.left,.carousel-control.right{background-image:none;}
 
 .carousel{
-	width:100%;
 	height:150px;
 }
 	/*so werden Bilder in den Container gepresst*/
@@ -22,6 +28,7 @@ body {
 }
 
 /*Navigationsleiste*/
+
 
 #social-media-link {
 	color:black;
@@ -36,7 +43,8 @@ body {
 .col-sm-2{
 	display:block;
 	float:right;
-	border: solid 2px red;
+	border: none;
+	background-color:black;
 }
 .col-sm-12{
 	text-align:center;
@@ -105,7 +113,7 @@ body {
   opacity: 1;
   right: 0;
 }
-=======
+
 #sidebar{
 	background-color:red;
 }
@@ -127,7 +135,7 @@ iframe{
 .foot{
 	background-color:black;
 }
-/*       HSTORIE       */
+/*       HSTORIE      
 
 #historie {
 	width: 70%;
@@ -136,13 +144,14 @@ iframe{
 	background-color: rgba(255,255,255,0.1);
 	border-radius: 10px;
 }
+*/
 
-/*       ÖFFNUNGSZEITEN       */
+/*       ÖFFNUNGSZEITEN       
 
 #oeffnungszeiten {
 	width: 40%;
 	margin-left: 5%;
 	background-color: rgba(255,255,255,0.1);
 	border-radius: 10px;
->>>>>>> d8b6f6a9bb8d78c5994524e0df5070dc8145bee9
 }
+*/
