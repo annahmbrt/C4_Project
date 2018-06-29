@@ -30,19 +30,24 @@ body {
 
 /*Navigationsleiste*/
 
+@media screen and (max-width: 1100px) {
+    .social-media-link {
+        display: none !important;
+    }
+}
 
-#social-media-link {
+.social-media-link {
 	color:black;
 	font-size:14px;
 }
 
 #social-media-logo{
-	height:40px;
+	height:20px;
 }
+
 
 /*grid system*/
 .col-sm-2{
-	display:block;
 	float:right;
 	border:none;
 	background-color:black;
@@ -119,6 +124,7 @@ iframe{
 	width:80%;
 	height:80%;
 }
+
 
 
 
