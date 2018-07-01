@@ -10,3 +10,4 @@ function showDrinks(getraenke_auswahl) {
 	else {
 		x.style.display = "block";
 	}
+}
