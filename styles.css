@@ -56,6 +56,12 @@ body {
 	text-align:center;
 }
 
+@media screen and (max-width: 768px) {
+    .col-sm-2 {
+        display: none !important;
+    }
+}
+
 
 /*                GETRAENKEKARTE                  */
 
@@ -139,7 +145,7 @@ iframe{
 .foot{
 	background-color:black;
 }
-/*       HSTORIE      
+/*       HSTORIE
 
 #historie {
 	width: 70%;
@@ -150,7 +156,7 @@ iframe{
 }
 */
 
-/*       ÖFFNUNGSZEITEN       
+/*       ÖFFNUNGSZEITEN
 
 #oeffnungszeiten {
 	width: 40%;
