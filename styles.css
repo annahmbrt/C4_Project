@@ -37,6 +37,7 @@ body {
 
 .carousel{
 	height:150px;
+	border-radius: 10px;
 }
 	/*so werden Bilder in den Container gepresst*/
 .carousel>.carousel-inner{
@@ -57,6 +58,7 @@ body {
 
 /*Navigationsleiste*/
 	/*collapse bei 870px*/
+
 
 @media (max-width: 870px) {
   .navbar-header {
@@ -138,13 +140,6 @@ body {
 
 /*                GETRAENKEKARTE                  */
 
-.getraenke_tabelle { width:40%;
-}
-
-#slideshow_placebear {
-	width:100%;
-}
-
 /* GETRÄNKE */
 
 .getraenke_tabelle {
@@ -200,8 +195,8 @@ body {
 }
 
 iframe{
-	width:80%;
-	height:20%;
+	width:120px;
+	height:120px;
 	margin-top: 5px;
 	margin-bottom: 10px;
 }
