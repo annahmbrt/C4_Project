@@ -14,7 +14,7 @@
 
 
 </head>
-<body >
+<body onscroll="srcollpos()">
 <div class="innen">
 	<!--Slideshow -->
 	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
@@ -67,7 +67,7 @@
 
 	<!-- navbar inhalt, collapsed-->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav" id="navbar-scroll">
         <li class="dropdown active">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Über Uns <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -97,7 +97,7 @@
 	<div class="grid-container">
 	<div class="col-sm-10">
 
-	<button class="button_drinks" onclick="showDrinks('Shots')"><span>Shots </span></button>
+	<button class="button_drinks" id="button_shots" onclick="showDrinks('Shots')"><span>Shots </span></button>
 
 	<div class="getraenke_tabelle" id="Shots">
 		<table class="table">
