@@ -11,11 +11,9 @@ function showDrinks(getraenke_auswahl) {
 		x.style.display = "block";
 	}
 }
-
-function scrollpos() {
-	if (document.body.scrollTop >= 50) {
-		alert('test');
-    /*document.getElementByclass("navbar").style.position = "fixed";
-		document.getElementByclass("navbar").style.top = "0px";*/
-}
-}
+/*
+$( window ).resize(function() {
+  if($(window).width() <=870) $('.navbar').addClass("sticky");
+  else $('.navbar').removeClass("sticky");
+});
+*/
