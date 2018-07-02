@@ -44,6 +44,10 @@ body {
 	height:100%;
 }
 
+.img-fluid {
+		width:100%;
+}
+
 /*Navigationsleiste*/
 	/*collapse bei 870px*/
 
