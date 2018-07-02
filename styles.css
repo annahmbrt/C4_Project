@@ -47,7 +47,14 @@ body {
 
 .img-fluid {
 		width:100%;
-}
+	}
+
+@media screen and (max-width: 870px) {
+	    #myCarousel {
+	        display: none !important;
+	    }
+	}
+
 
 /*Navigationsleiste*/
 	/*collapse bei 870px*/
