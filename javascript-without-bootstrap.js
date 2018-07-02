@@ -1,6 +1,3 @@
-var audio = document.getElementById("hintergrundmusik");
-audio.volume = 0.0;
-
 /* Funktion Getränke anzeigen */
 function showDrinks(getraenke_auswahl) {
 	var x = document.getElementById(getraenke_auswahl);
@@ -10,4 +7,15 @@ function showDrinks(getraenke_auswahl) {
 	else {
 		x.style.display = "block";
 	}
+}
+
+function play_pause_audio() {
+	var v = document.getElementById("hintergrundmusik");
+	if (v.volume!="0.0") {
+	v.pause();
+}
+	else {
+		v.play();
+	}
+
 }

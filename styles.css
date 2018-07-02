@@ -94,7 +94,6 @@ body {
   }
   .collapse.in{
       display:block !important;
-				border-radius: 5px;
   }
 }
 
@@ -137,6 +136,11 @@ body {
         display: none !important;
     }
 }
+
+
+/*      AUDIO   */
+
+
 
 
 /*                GETRAENKEKARTE                  */
