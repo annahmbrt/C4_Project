@@ -154,6 +154,17 @@ body {
     .col-sm-2 {
         display: none !important;
     }
+		.foot {
+			bottom:0;
+			width:90%;
+			position:absolute;
+			position:fixed;
+		}
+}
+.col-sm-10 img{
+	width:300px;
+	height:300px;
+	margin:5px;
 }
 
 
