@@ -98,7 +98,6 @@ body {
   }
   .collapse.in{
       display:block !important;
-				border-radius: 5px;
   }
 }
 
@@ -166,6 +165,11 @@ body {
 	height:300px;
 	margin:5px;
 }
+
+
+/*      AUDIO   */
+
+
 
 
 /*                GETRAENKEKARTE                  */
