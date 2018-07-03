@@ -194,7 +194,10 @@ body {
 
 /*      AUDIO   */
 
-
+audio {
+	width: 90%;
+	margin-top: 15px;
+}
 
 
 /*                GETRAENKEKARTE                  */
