@@ -1,10 +1,4 @@
-/*var v = document.getElementById('music');
-
-function muteMusic() {
-    v.volume = 0.0;
-}*/
-
-
+/*     AUDIO     */
 
 function VolumeDown() {
   var v = document.getElementById('music');
@@ -39,7 +33,9 @@ function volumeDown() {
   document.getElementById("music").volume -= 0.1;
 }
 
-/* Funktion Getränke anzeigen */
+
+/*        GETRAENKE      */
+
 function showDrinks(getraenke_auswahl) {
 	var x = document.getElementById(getraenke_auswahl);
 	if (x.style.display==="block") {
