@@ -254,6 +254,43 @@ body {
 	margin-bottom: 15px;
 }
 
+@media screen and (max-width: 870px) {
+	.button_drinks {
+		font-size: 25px;
+		padding: 15px;
+		width: 70%;
+		margin-bottom: 10px;
+	}
+	.getraenke_tabelle {
+		width: 70%;
+		background-color: rgba(0, 0, 0, 0.4);
+		padding: 10px;
+		margin-bottom: 15px;
+		font-size: 16px;
+	}
+	.Menge {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.button_drinks {
+		font-size: 20px;
+		padding: 10px;
+		width: 85%;
+		margin-bottom: 5px;
+	}
+	.getraenke_tabelle {
+		width: 85%;
+		background-color: rgba(0, 0, 0, 0.4);
+		padding: 5px;
+		margin-bottom: 10px;
+		font-size: 12px;
+	}
+}
+
+
+
 .button_drinks span {
   cursor: pointer;
   display: inline-block;
