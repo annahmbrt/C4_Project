@@ -17,11 +17,12 @@ body {
 }
 
 .container{
-	background-color:rgba(0,0,0,0.3);
+	background-color:rgba(0,0,0,0.6);
 	border-radius:20px;
 		padding-right: 0px;
 		padding-bottom: 0px;
 		margin-bottom: 15px;
+	font-size: 15px;
 }
 .innen>.container{
 	width:100%;
@@ -150,14 +151,24 @@ body {
 	display: flex;
 }
 
+/*     SIDEBAR      */
 .col-sm-2{
 	float:right;
 	border:none;
-	background-color: rgba(0, 0, 0, 0.4);
-	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 20px;
 	padding-top: 10px;
 	text-align: center;
 	align-items: stretch;
+}
+
+#audio-pause-or-play {
+	width: 50%;
+}
+
+.volume-button {
+	width: 20%;
+	display: inline;
 }
 
 
@@ -180,6 +191,7 @@ body {
 			position:absolute;
 			position:fixed;
 		}
+
 }
 .col-sm-10 img{
 	width:300px;
@@ -272,7 +284,15 @@ iframe{
 }
 
 
+/*        MITGLIED WERDEN    */
+.contact-link {
+		color: rgb(150,200,255);
+		font-weight: bold;
+}
 
+.contact-link:hover {
+		font-weight: bolder;
+}
 
 .foot a{
 	text-decoration:none;
